@@ -1,0 +1,55 @@
+:root { 
+  --black: #000000;
+  --empress: #827474;
+  --evening-sea: #125140;
+  --sunset-orange: #fc483d;
+  --white: #ffffff;
+ 
+  --font-size-l: 28px;
+  --font-size-m: 25px;
+  --font-size-s: 22px;
+  --font-size-xl: 30px;
+  --font-size-xxl: 35px;
+  --font-size-xxxl: 40px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-empress-30px {
+  color: var(--empress);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}

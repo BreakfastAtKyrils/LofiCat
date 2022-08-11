@@ -1,0 +1,311 @@
+/* screen - study */
+
+.study {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1175.42px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.study .overlap-group3 {
+  height: 1302px;
+  position: relative;
+  width: 100%;
+}
+
+.study .study_background {
+  height: 1175px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.study .logo {
+  height: 68px;
+  left: 388px;
+  position: absolute;
+  top: 23px;
+  width: 226px;
+}
+
+.study .backhome-1 {
+  cursor: pointer;
+  height: 59px;
+  left: 1231px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 67px;
+}
+
+.study .overlap-group1 {
+  height: 1302px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 361px;
+}
+
+.study .rectangle-8 {
+  background-color: #fff8ede6;
+  height: 1302px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 359px;
+}
+
+.study .group-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 53px;
+  left: 60px;
+  min-width: 241px;
+  position: absolute;
+  top: 279px;
+}
+
+.study .overlap-group-1 {
+  align-items: flex-end;
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  display: flex;
+  height: 53px;
+  min-width: 239px;
+  padding: 6.4px 0.0px;
+}
+
+.study .take-quiz {
+  height: 39px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 237px;
+}
+
+.study .title {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 300;
+  height: 55px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #14199640;
+  top: 106px;
+  width: 359px;
+}
+
+.study .group-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 27px;
+  min-width: 334px;
+  position: absolute;
+  top: 361px;
+}
+
+.study .overlap-group {
+  align-self: flex-end;
+  height: 54px;
+  position: relative;
+  width: 54px;
+}
+
+.study .ellipse-3 {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+.study .number {
+  height: 54px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 54px;
+}
+
+.study .classes {
+  color: #817474;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: 55px;
+  letter-spacing: 0;
+  margin-left: 23px;
+  width: 255px;
+}
+
+.study .group-16 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 27px;
+  min-width: 334px;
+  position: absolute;
+  top: 205px;
+}
+
+.study .loops {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: 55px;
+  letter-spacing: 0;
+  margin-left: 23px;
+  width: 255px;
+}
+
+.study .group-10 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 27px;
+  min-width: 334px;
+  position: absolute;
+  top: 449px;
+}
+
+.study .iife {
+  height: 55px;
+  letter-spacing: 0;
+  margin-left: 23px;
+  width: 255px;
+}
+
+.study .group-11 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 27px;
+  min-width: 334px;
+  position: absolute;
+  top: 537px;
+}
+
+.study .scope {
+  height: 55px;
+  letter-spacing: 0;
+  margin-left: 23px;
+  width: 255px;
+}
+
+.study .group-15 {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  left: 27px;
+  min-width: 334px;
+  position: absolute;
+  top: 625px;
+}
+
+.study .closures {
+  height: 55px;
+  letter-spacing: 0;
+  margin-left: 23px;
+  width: 255px;
+}
+
+.study .overlap-group2 {
+  border-radius: 20px;
+  height: 1017px;
+  left: 402px;
+  position: absolute;
+  top: 118px;
+  width: 863px;
+}
+
+.study .group-container {
+  border-radius: 20px;
+  height: 1017px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 863px;
+}
+
+.study .group-14 {
+  align-items: flex-start;
+  background-color: #00000080;
+  border-radius: 20px;
+  display: flex;
+  height: 1017px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 863px;
+  padding: 22.8px 13.6px;
+  position: absolute;
+  top: 0;
+}
+
+.study .rectangle-10 {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 964px;
+  width: 831px;
+}
+
+.study .overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--evening-sea);
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  height: 79px;
+  left: 18px;
+  min-width: 751px;
+  padding: 14.9px 37.5px;
+  position: absolute;
+  top: 41px;
+}
+
+.study .chapter-1-loops-for-loops {
+  height: 48px;
+  letter-spacing: 0;
+  width: 667px;
+}
+
+.study .span1 {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+}
+
+.study .arrow-1 {
+  height: 22px;
+  left: 769px;
+  position: absolute;
+  top: 930px;
+  width: 47px;
+}
+
+.study .this-text-is-about-l {
+  left: 48px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 162px;
+  width: 745px;
+}
+
+.study .peakaboo_cat {
+  height: 232px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 943px;
+  width: 268px;
+}

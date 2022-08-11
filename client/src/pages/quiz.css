@@ -1,0 +1,495 @@
+/* screen - quiz */
+
+.quiz {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 812.5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.quiz .overlap-group10 {
+  height: 822px;
+  position: relative;
+  width: 100%;
+}
+
+.quiz .study_background {
+  height: 812px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.quiz .overlap-group6 {
+  border-radius: 20px;
+  height: 720px;
+  left: 401px;
+  position: absolute;
+  top: 102px;
+  width: 863px;
+}
+
+.quiz .group-container {
+  border-radius: 20px;
+  height: 720px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 863px;
+}
+
+.quiz .group-14 {
+  align-items: flex-start;
+  background-color: #00000080;
+  border-radius: 20px;
+  display: flex;
+  height: 720px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 863px;
+  padding: 16.2px 13.6px;
+  position: absolute;
+  top: 0;
+}
+
+.quiz .rectangle-10 {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 683px;
+  width: 831px;
+}
+
+.quiz .overlap-group-1 {
+  height: 79px;
+  left: 18px;
+  position: absolute;
+  top: 41px;
+  width: 339px;
+}
+
+.quiz .rectangle-11 {
+  background-color: var(--evening-sea);
+  border-radius: 0px 20px 20px 0px;
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 315px;
+}
+
+.quiz .question-1 {
+  height: 48px;
+  left: 38px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 16px;
+  width: 301px;
+}
+
+.quiz .arrow-1 {
+  height: 22px;
+  left: 759px;
+  position: absolute;
+  top: 622px;
+  width: 47px;
+}
+
+.quiz .which-of-the-followi {
+  color: var(--sunset-orange);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 135px;
+  width: 705px;
+}
+
+.quiz .overlap-group2 {
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  height: 124px;
+  left: 49px;
+  position: absolute;
+  top: 255px;
+  width: 373px;
+}
+
+.quiz .while-true {
+  height: 92px;
+  left: 80px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 270px;
+}
+
+.quiz .overlap-group {
+  height: 63px;
+  left: 31px;
+  position: absolute;
+  top: 33px;
+  width: 63px;
+}
+
+.quiz .ellipse-3 {
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 63px;
+}
+
+.quiz .a {
+  height: 62px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 63px;
+}
+
+.quiz .overlap-group3 {
+  align-items: center;
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  display: flex;
+  height: 124px;
+  justify-content: flex-end;
+  left: 440px;
+  min-width: 373px;
+  padding: 13.7px 10.0px;
+  position: absolute;
+  top: 255px;
+}
+
+.quiz .overlap-group-2 {
+  height: 63px;
+  margin-top: 5.69px;
+  position: relative;
+  width: 63px;
+}
+
+.quiz .b {
+  height: 62px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 63px;
+}
+
+.quiz .whilecounter0 {
+  align-self: flex-end;
+  height: 92px;
+  letter-spacing: 0;
+  margin-left: 1px;
+  text-align: center;
+  width: 268px;
+}
+
+.quiz .overlap-group4 {
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  height: 124px;
+  left: 441px;
+  position: absolute;
+  top: 403px;
+  width: 373px;
+}
+
+.quiz .for-counter-in-rangex {
+  height: 92px;
+  left: 80px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 270px;
+}
+
+.quiz .d {
+  height: 62px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 63px;
+}
+
+.quiz .overlap-group5 {
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  height: 124px;
+  left: 49px;
+  position: absolute;
+  top: 403px;
+  width: 373px;
+}
+
+.quiz .for-counter-in-range-true {
+  height: 92px;
+  left: 80px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 270px;
+}
+
+.quiz .c {
+  height: 62px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 63px;
+}
+
+.quiz .lickcat {
+  height: 184px;
+  left: 253px;
+  object-fit: cover;
+  position: absolute;
+  top: 629px;
+  width: 387px;
+}
+
+.quiz .logo {
+  height: 68px;
+  left: 388px;
+  position: absolute;
+  top: 23px;
+  width: 226px;
+}
+
+.quiz .backhome-1 {
+  cursor: pointer;
+  height: 59px;
+  left: 1231px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 67px;
+}
+
+.quiz .overlap-group9 {
+  height: 822px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.quiz .overlap-group-3 {
+  align-items: flex-start;
+  background-color: #fff8ede6;
+  display: flex;
+  height: 822px;
+  left: 0;
+  min-width: 359px;
+  padding: 66.9px 0;
+  position: absolute;
+  top: 0;
+}
+
+.quiz .quiz-chapter-1 {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 300;
+  height: 35px;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: 0px 4px 4px #14199640;
+  width: 359px;
+}
+
+.quiz .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 23px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 192px;
+}
+
+.quiz .question {
+  height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 317px;
+}
+
+.quiz .overlap-group2-1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5-1@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 21px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 270px;
+}
+
+.quiz .overlap-group3-1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5-2@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 20px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 347px;
+}
+
+.quiz .overlap-group4-1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5-3@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 18px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 425px;
+}
+
+.quiz .overlap-group5-1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5-4@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 18px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 503px;
+}
+
+.quiz .overlap-group6-1 {
+  align-items: flex-start;
+  background-image: url(http://localhost:3000/img/rectangle-5-5@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  left: 16px;
+  min-width: 320px;
+  padding: 9.1px 0;
+  position: absolute;
+  top: 581px;
+}
+
+.quiz .group-22 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  left: 91px;
+  min-width: 269px;
+  position: absolute;
+  top: 666px;
+}
+
+.quiz .back-to-studying {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 400;
+  height: 41px;
+  letter-spacing: 0;
+  width: 267px;
+}
+
+.quiz .arrow-2 {
+  cursor: pointer;
+  height: 22px;
+  left: 24px;
+  position: absolute;
+  top: 676px;
+  width: 48px;
+}
+
+.quiz .overlap-group7 {
+  align-items: flex-end;
+  background-color: var(--evening-sea);
+  border-radius: 29px;
+  display: flex;
+  height: 57px;
+  left: 49px;
+  min-width: 242px;
+  padding: 6.9px 0;
+  position: absolute;
+  top: 730px;
+}
+
+.quiz .final-exam {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 42px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 241px;
+}
+
+.quiz .loops {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: 55px;
+  left: 150px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 118px;
+  width: 177px;
+}
+
+.quiz .overlap-group8 {
+  height: 54px;
+  left: 73px;
+  position: absolute;
+  top: 119px;
+  width: 54px;
+}
+
+.quiz .ellipse-3-1 {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+.quiz .number {
+  height: 54px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 54px;
+}
