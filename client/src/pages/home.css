@@ -10,15 +10,16 @@
 
 .home .overlap-group4 {
   align-items: flex-end;
-  background-image: url(http://localhost:3000/img/homepage-background@1x.png);
-  background-size: 100% 100%;
+  background-image: url("./img/homepage-background@1x.png");
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 812px;
-  width: 100%;
 }
 
-.home .group-35 {
+.home .navbar {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
@@ -29,9 +30,10 @@
 }
 
 .home .logo {
-  align-self: center;
+  position: absolute;
+  margin-left:-80.2%;
   height: 75px;
-  margin-top: 0.37px;
+  margin-top: 10px;
   width: 250px;
 }
 

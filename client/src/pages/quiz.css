@@ -317,7 +317,7 @@
 
 .quiz .overlap-group1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5@2x.svg);
+  background-image: url("./img/rectangle-5@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;
@@ -337,7 +337,7 @@
 
 .quiz .overlap-group2-1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5-1@2x.svg);
+  background-image: url("./img/rectangle-5-1@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;
@@ -350,7 +350,7 @@
 
 .quiz .overlap-group3-1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5-2@2x.svg);
+  background-image: url("./img/rectangle-5-2@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;
@@ -363,7 +363,7 @@
 
 .quiz .overlap-group4-1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5-3@2x.svg);
+  background-image: url("./img/rectangle-5-3@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;
@@ -376,7 +376,7 @@
 
 .quiz .overlap-group5-1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5-4@2x.svg);
+  background-image: url("./img/rectangle-5-4@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;
@@ -389,7 +389,7 @@
 
 .quiz .overlap-group6-1 {
   align-items: flex-start;
-  background-image: url(http://localhost:3000/img/rectangle-5-5@2x.svg);
+  background-image: url("./img/rectangle-5-5@2x.svg");
   background-size: 100% 100%;
   display: flex;
   height: 55px;

@@ -21,7 +21,7 @@ const Home = () => {
     <input type="hidden" id="anPageName" name="page" value="home" />
       <div class="home screen">
         <div class="overlap-group4">
-          <div class="group-35">
+          <div class="navbar">
             <img class="logo" src="img/logo-2@2x.png" />
             <div class="overlap-group-1">
               <div class="ellipse-4"></div>

@@ -9,10 +9,10 @@
 }
 
 .login .overlap-group8 {
-  background-image: url(http://localhost:3000/img/homepage-background@1x.png);
-  background-size: 100% 100%;
-  height: 812px;
-  position: relative;
+  background-image: url("./img/homepage-background@1x.png");
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
   width: 100%;
 }
 
