@@ -16,7 +16,7 @@ const Quiz = () => {
   //   // setData(response.data);
   //   setData(questionText);
   // };
-  
+
   return (
     <>
     <div class="container-center-horizontal">
