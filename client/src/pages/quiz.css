@@ -326,6 +326,8 @@
   padding: 9.1px 0;
   position: absolute;
   top: 192px;
+  padding: 2;
+  border: none;
 }
 
 .quiz .question {
