@@ -118,6 +118,8 @@
   position: relative;
   top: 255px;
   width: 373px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .quiz .while-true {
