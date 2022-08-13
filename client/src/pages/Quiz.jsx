@@ -6,9 +6,6 @@ import './quiz.css'
 const Quiz = () => {
   return (
     <>
-      <QuizSideBar />
-      <h1>this is the Quiz Page</h1>
-      <Question />
     <div class="container-center-horizontal">
     <input type="hidden" id="anPageName" name="page" value="quiz" />
       <div class="quiz screen">
@@ -62,8 +59,6 @@ const Quiz = () => {
             </div>
           </div>
           <img class="lickcat" src="img/lickcat@2x.png" />
-          <img class="logo" src="img/logo-1@2x.png" />
-          <a href="home.html"><img class="backhome-1" src="img/backhome-1@2x.png" /> </a>
           <div class="overlap-group9">
             <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>
             <div class="overlap-group1">
@@ -86,7 +81,7 @@ const Quiz = () => {
             </div>
             <a href="study.html">
               <div class="group-22"><div class="back-to-studying valign-text-middle">back to studying...</div></div></a>
-              <a href="study.html"><img class="arrow-2" src="img/arrow-2@2x.svg" /> </a>
+              <a href="/study"><img class="arrow-2" src="img/arrow-2@2x.svg" /> </a>
             <div class="overlap-group7"><div class="final-exam valign-text-middle">FINAL EXAM</div></div>
             <div class="loops valign-text-middle">Loops</div>
             <div class="overlap-group8">
@@ -97,6 +92,8 @@ const Quiz = () => {
         </div>
       </div>
     </div>
+    <QuizSideBar />
+      <Question />
     </>
   );
 };

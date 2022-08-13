@@ -1,19 +1,21 @@
 /* screen - login */
-
 .login {
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  height: 812.5px;
+  height: 100vh;
+  overflow-x: hidden;
   width: 100%;
 }
 
 .login .overlap-group8 {
-  background-image: url("./img/homepage-background@1x.png");
+  background-image: url("./img/loginbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   object-fit: contain;
-  width: 100%;
 }
 
 .login .group-container {
@@ -22,12 +24,12 @@
   border-radius: 60px;
   display: flex;
   flex-direction: column;
-  left: 674px;
-  min-height: 657px;
+  left: 774px;
+  min-height: 557px;
   padding: 28px 46px;
   position: absolute;
   top: 96px;
-  width: 608px;
+  width: 600px;
 }
 
 .login .overlap-group7 {
@@ -38,11 +40,11 @@
 }
 
 .login .logo {
-  height: 123px;
-  left: 23px;
+  height: 113px;
+  left: 29px;
   position: absolute;
   top: 0;
-  width: 408px;
+  width: 390px;
 }
 
 .login .sign-in-to-get-learning-or {
@@ -54,7 +56,7 @@
   left: 0;
   letter-spacing: 0;
   position: absolute;
-  top: 108px;
+  top: 90px;
   width: 434px;
 }
 
@@ -68,30 +70,17 @@
   letter-spacing: 0;
   position: absolute;
   text-decoration: underline;
-  top: 108px;
+  top: 90px;
   width: 125px;
 }
 
 .login .overlap-group6 {
   align-self: center;
-  height: 106px;
+  height: 110px;
   margin-left: 2.0px;
-  margin-top: 5px;
+  margin-top: 0px;
   position: relative;
   width: 496px;
-}
-
-.login .sign-in-to-get-learning-or-1 {
-  color: #8e8d8d;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
-  height: 55px;
-  left: 17px;
-  letter-spacing: 0;
-  position: absolute;
-  top: 45px;
-  width: 434px;
 }
 
 .login .username {
@@ -135,7 +124,7 @@
 .login .overlap-group5 {
   align-self: center;
   height: 105px;
-  margin-top: 1px;
+  margin-top: 10px;
   position: relative;
   width: 494px;
 }
@@ -282,9 +271,9 @@
 
 .login .homepage_cat {
   height: 272px;
-  left: 420px;
+  left: 500px;
   object-fit: cover;
   position: absolute;
-  top: 541px;
+  top: 510px;
   width: 355px;
 }

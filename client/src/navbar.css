@@ -1,4 +1,4 @@
-/* screen - home */
+/* nav bar */
 
 li {
   padding: 0px;
@@ -33,10 +33,10 @@ li {
 }
 
 .nav_screen .logo {
-  position: fixed;
+  position: absolute;
   left: 10px;
   height: 40px;
-  margin-top: 10px;
+  top: 15px;
   width: 160px;
   object-fit: cover;
 }

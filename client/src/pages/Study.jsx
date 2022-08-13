@@ -16,18 +16,15 @@ const Study = () => {
   }, []);
   return (
     <>
-      <h1>this is the studypage</h1>
       <h2>{data && data} </h2>
     <div class="container-center-horizontal">
     <input type="hidden" id="anPageName" name="page" value="study" />
       <div class="study screen">
         <div class="overlap-group3">
           <img class="study_background" src="img/study-background@1x.png" />
-          <img class="logo" src="img/logo-1@2x.png" />
-          <a href="home.html"><img class="backhome-1" src="img/backhome-1@2x.png" /> </a>
           <div class="overlap-group1">
             <div class="rectangle-8"></div>
-            <a href="quiz.html">
+            <a href="/quiz">
               <div class="group-1">
                 <div class="overlap-group-1">
                   <div class="take-quiz valign-text-middle poppins-normal-white-25px">Take Quiz</div>

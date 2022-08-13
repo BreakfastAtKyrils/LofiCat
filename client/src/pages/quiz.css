@@ -29,7 +29,7 @@
   height: 720px;
   left: 401px;
   position: absolute;
-  top: 102px;
+  top: 56px;
   width: 863px;
 }
 
@@ -49,7 +49,7 @@
   display: flex;
   height: 720px;
   justify-content: flex-end;
-  left: 0;
+  left: 30px;
   min-width: 863px;
   padding: 16.2px 13.6px;
   position: absolute;
@@ -65,7 +65,7 @@
 
 .quiz .overlap-group-1 {
   height: 79px;
-  left: 18px;
+  left: 48px;
   position: absolute;
   top: 41px;
   width: 339px;
@@ -103,7 +103,7 @@
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xl);
   font-weight: 400;
-  left: 71px;
+  left: 91px;
   letter-spacing: 0;
   position: absolute;
   top: 135px;
@@ -114,7 +114,7 @@
   background-color: var(--evening-sea);
   border-radius: 29px;
   height: 124px;
-  left: 49px;
+  left: 69px;
   position: absolute;
   top: 255px;
   width: 373px;
@@ -163,7 +163,7 @@
   display: flex;
   height: 124px;
   justify-content: flex-end;
-  left: 440px;
+  left: 460px;
   min-width: 373px;
   padding: 13.7px 10.0px;
   position: absolute;
@@ -200,7 +200,7 @@
   background-color: var(--evening-sea);
   border-radius: 29px;
   height: 124px;
-  left: 441px;
+  left: 461px;
   position: absolute;
   top: 403px;
   width: 373px;
@@ -230,7 +230,7 @@
   background-color: var(--evening-sea);
   border-radius: 29px;
   height: 124px;
-  left: 49px;
+  left: 69px;
   position: absolute;
   top: 403px;
   width: 373px;
@@ -257,12 +257,12 @@
 }
 
 .quiz .lickcat {
-  height: 184px;
-  left: 253px;
+  height: 152px;
   object-fit: cover;
-  position: absolute;
-  top: 629px;
-  width: 387px;
+  position: fixed;
+  bottom: 0px;
+  width: 268px;
+  right: 0px; bottom: 0px;
 }
 
 .quiz .logo {

@@ -18,13 +18,11 @@ const Home = () => {
       <h2>{data && data.name} </h2>
     <div class="container-center-horizontal">
     <input type="hidden" id="anPageName" name="page" value="home" />
-      <div class="home screen">
+      <div class="home">
         <div class="overlap-group4">
           <div class="overlap-group-container">
             <div class="overlap-group5">
-              <img class="loggedin_cat-1" src="img/loggedin-cat-1@2x.png" />
-              <img class="floatingbook-1" src="img/floatingbook-1@2x.png" />
-              <a href="study.html">
+              <a href="/study">
                 <div class="group-1">
                   <div class="overlap-group">
                     <div class="read-study valign-text-middle poppins-normal-white-25px">Read &amp; Study</div>
@@ -32,8 +30,7 @@ const Home = () => {
                 </div></a>
             </div>
             <div class="overlap-group6">
-              <img class="code-1" src="img/code-1@2x.png" />
-              <a href="quiz.html">
+              <a href="/quiz">
                 <div class="group-7">
                   <div class="overlap-group">
                     <div class="quiz-yourself valign-text-middle poppins-normal-white-25px">Quiz Yourself</div>

@@ -14,7 +14,6 @@ const Login = () => {
               <div class="sign-up valign-text-middle">Sign Up</div>
             </div>
             <div class="overlap-group6">
-              <div class="sign-in-to-get-learning-or-1 valign-text-middle">Sign in to get learning or</div>
               <div class="username poppins-normal-white-25px">Username</div>
               <div class="overlap-group2">
                 <textarea class="name" name="name" placeholder="Name" type="text" required></textarea>
@@ -30,13 +29,13 @@ const Login = () => {
               <div class="rectangle-4"></div>
               <div class="keep-me-logged-in">Keep me logged in</div>
             </div>
-            <a href="home.html">
+            <a href="/home">
               <div class="group-1">
                 <div class="overlap-group1">
                   <div class="rectangle-5"></div>
                   <div class="sign-in valign-text-middle poppins-normal-white-30px">Sign In</div>
                 </div>
-              </div></a><a href="home.html">
+              </div></a><a href="/home">
               <div class="group-2">
                 <div class="overlap-group">
                   <img

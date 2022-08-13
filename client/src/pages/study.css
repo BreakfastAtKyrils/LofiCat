@@ -4,13 +4,13 @@
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  height: 1175.42px;
+  height: 1002px;
   overflow: hidden;
   width: 100%;
 }
 
 .study .overlap-group3 {
-  height: 1302px;
+  height: 1002px;
   position: relative;
   width: 100%;
 }
@@ -24,26 +24,8 @@
   width: 100%;
 }
 
-.study .logo {
-  height: 68px;
-  left: 388px;
-  position: absolute;
-  top: 23px;
-  width: 226px;
-}
-
-.study .backhome-1 {
-  cursor: pointer;
-  height: 59px;
-  left: 1231px;
-  object-fit: cover;
-  position: absolute;
-  top: 11px;
-  width: 67px;
-}
-
 .study .overlap-group1 {
-  height: 1302px;
+  height: 1002px;
   left: 0;
   position: absolute;
   top: 0;
@@ -52,7 +34,7 @@
 
 .study .rectangle-8 {
   background-color: #fff8ede6;
-  height: 1302px;
+  height: 1002px;
   left: 0;
   position: absolute;
   top: 0;
@@ -67,7 +49,7 @@
   left: 60px;
   min-width: 241px;
   position: absolute;
-  top: 279px;
+  top: 199px;
 }
 
 .study .overlap-group-1 {
@@ -98,7 +80,7 @@
   position: absolute;
   text-align: center;
   text-shadow: 0px 4px 4px #14199640;
-  top: 106px;
+  top: 56px;
   width: 359px;
 }
 
@@ -109,7 +91,7 @@
   left: 27px;
   min-width: 334px;
   position: absolute;
-  top: 361px;
+  top: 270px;
 }
 
 .study .overlap-group {
@@ -155,7 +137,7 @@
   left: 27px;
   min-width: 334px;
   position: absolute;
-  top: 205px;
+  top: 135px;
 }
 
 .study .loops {
@@ -176,7 +158,7 @@
   left: 27px;
   min-width: 334px;
   position: absolute;
-  top: 449px;
+  top: 350px;
 }
 
 .study .iife {
@@ -193,7 +175,7 @@
   left: 27px;
   min-width: 334px;
   position: absolute;
-  top: 537px;
+  top: 430px;
 }
 
 .study .scope {
@@ -210,7 +192,7 @@
   left: 27px;
   min-width: 334px;
   position: absolute;
-  top: 625px;
+  top: 510px;
 }
 
 .study .closures {
@@ -225,7 +207,7 @@
   height: 1017px;
   left: 402px;
   position: absolute;
-  top: 118px;
+  top: 18px;
   width: 863px;
 }
 
@@ -243,10 +225,10 @@
   background-color: #00000080;
   border-radius: 20px;
   display: flex;
-  height: 1017px;
+  height: 947px;
   justify-content: flex-end;
   left: 0;
-  min-width: 863px;
+  min-width: 993px;
   padding: 22.8px 13.6px;
   position: absolute;
   top: 0;
@@ -254,9 +236,9 @@
 
 .study .rectangle-10 {
   background-color: var(--white);
-  border-radius: 20px;
-  height: 964px;
-  width: 831px;
+  border-radius: 0px;
+  height: 904px;
+  width: 961px;
 }
 
 .study .overlap-group-2 {
@@ -287,9 +269,9 @@
 
 .study .arrow-1 {
   height: 22px;
-  left: 769px;
+  left: 899px;
   position: absolute;
-  top: 930px;
+  top: 890px;
   width: 47px;
 }
 
@@ -298,14 +280,14 @@
   letter-spacing: 0;
   position: absolute;
   top: 162px;
-  width: 745px;
+  width: 895px;
 }
 
 .study .peakaboo_cat {
-  height: 232px;
+  height: 152px;
   left: 0;
   object-fit: cover;
-  position: absolute;
-  top: 943px;
-  width: 268px;
+  position: fixed;
+  bottom: 0px;
+  width: 168px;
 }

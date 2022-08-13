@@ -3,145 +3,36 @@
 .home {
   align-items: flex-start;
   background-color: var(--white);
+  background-image: url("./img/homepage-background@1x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  height: 812.5px;
   width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .home .overlap-group4 {
   align-items: flex-end;
-  background-image: url("./img/homepage-background@1x.png");
   width: 100%;
-  height: 100%; 
   object-fit: contain;
-  width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.home .navbar {
-  align-items: flex-start;
-  background-color: var(--black);
-  display: flex;
-  height: 111px;
-  justify-content: flex-end;
-  min-width: 100%;
-  padding: 6px 9px;
-}
-
-.home .logo {
-  position: absolute;
-  margin-left:-80.2%;
-  height: 75px;
-  margin-top: 10px;
-  width: 250px;
-}
-
-.home .overlap-group-1 {
-  background-color: var(--sunset-orange);
-  border-radius: 48.5px;
-  height: 97px;
-  margin-left: 709px;
-  position: relative;
-  width: 97px;
-}
-
-.home .ellipse-4 {
-  background-color: #f6bca8;
-  border-radius: 40.5px;
-  height: 81px;
-  left: 8px;
-  position: absolute;
-  top: 7px;
-  width: 81px;
-}
-
-.home .study_cat {
-  cursor: pointer;
-  height: 78px;
-  left: 17px;
-  object-fit: cover;
-  position: absolute;
-  top: 12px;
-  width: 58px;
-}
-
-.home .overlap-group1 {
-  height: 97px;
-  margin-left: 13px;
-  position: relative;
-  width: 196px;
-}
-
-.home .ellipse-1 {
-  background-color: var(--sunset-orange);
-  border-radius: 48.5px;
-  height: 97px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 97px;
-}
-
-.home .ellipse-2 {
-  background-color: #f6bca8;
-  border-radius: 40.5px;
-  height: 81px;
-  left: 8px;
-  position: absolute;
-  top: 9px;
-  width: 81px;
-}
-
-.home .coding_cat {
-  cursor: pointer;
-  height: 86px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 7px;
-  width: 81px;
-}
-
-.home .backhome-1 {
-  height: 77px;
-  left: 92px;
-  object-fit: cover;
-  position: absolute;
-  top: 11px;
-  width: 104px;
 }
 
 .home .overlap-group-container {
   align-items: flex-start;
   display: flex;
-  margin-right: 8.0px;
-  margin-top: 238px;
+  margin-top: 350px;
   min-width: 809px;
+  margin-bottom: 10%;
 }
 
 .home .overlap-group5 {
-  height: 464px;
+  height: 380px;
   position: relative;
   width: 460px;
-}
-
-.home .loggedin_cat-1 {
-  height: 330px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 133px;
-  width: 241px;
-}
-
-.home .floatingbook-1 {
-  height: 179px;
-  left: 97px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 308px;
+  left: 10%;
 }
 
 .home .group-1 {
@@ -173,11 +64,10 @@
 }
 
 .home .overlap-group6 {
-  height: 306px;
-  margin-left: 9px;
-  margin-top: 29.34px;
+  height: 380px;
   position: relative;
-  width: 341px;
+  width: 460px;
+  margin-left: 20%;
 }
 
 .home .code-1 {
