@@ -46,10 +46,13 @@
   cursor: pointer;
   display: flex;
   height: 53px;
-  left: 60px;
+  left: 1120px;
   min-width: 241px;
   position: absolute;
-  top: 199px;
+  top: 869px;
+  background: none;
+  padding: 0;
+  border: none;
 }
 
 .study .overlap-group-1 {
@@ -135,19 +138,23 @@
   display: flex;
   height: 56px;
   left: 27px;
-  min-width: 334px;
+  max-width: 334px;
   position: absolute;
   top: 135px;
+  background: none;
+  padding: 0;
+  border: none;
+  text-align: left;
 }
 
 .study .loops {
   color: var(--black);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-s);
   font-weight: 400;
   height: 55px;
   letter-spacing: 0;
-  margin-left: 23px;
+  margin-left: 13px;
   width: 255px;
 }
 
