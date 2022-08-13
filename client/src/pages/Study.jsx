@@ -7,14 +7,16 @@ import './study.css'
 
 const Study = () => {
   const [data, setData] = useState('This is before the button click');
-  const testContent = 'This is the text for chapter 1 on for loops!!!';
-  const chapter_text = 'This is the chapter text!'
+  const [title, setTitle] = useState('Sample Title');
+  const testContent = 'For loops are cool, etc.';
+  const testTitle = 'Chapter 1: For Loops';
   //grabs the chapter content
     const fetchContent = async () => {
       //const response = await axios.get("http://localhost:3006/chapters/1");
       //console.log(response.data);
       //setData(response.data);
       setData(testContent);
+      setTitle(testTitle);
     };
  
  
@@ -30,10 +32,10 @@ const Study = () => {
               <h1 class="title valign-text-middle">CHAPTERS</h1>
               <div>
                   <SideBarButton title='Chapter 1: For Loops' chapter_number='1' onClick={fetchContent} />
+                  <StudyContent text={data} title={title}/>
               </div>
           </div>
-            <StudyContent text={chapter_text} chapter_number='Chapter 1:' title=' For Loops'/>
-            <TakeQuizButton />
+          <TakeQuizButton />
           <img class="peakaboo_cat" src="img/peakaboo-cat@2x.png" />
         </div>
       </div>
