@@ -1,0 +1,112 @@
+/* screen - home */
+
+.nav_screen {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+
+.nav_screen .overlap-group4 {
+  align-items: flex-end;
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_screen .navbar {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  min-width: 100%;
+  padding: 6px 9px;
+}
+
+.nav_screen .logo {
+  position: absolute;
+  margin-left:-80.2%;
+  height: 75px;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.nav_screen .overlap-group-1 {
+  background-color: var(--sunset-orange);
+  border-radius: 40.5px;
+  height: 60px;
+  left: 24px;
+  margin-left: 709px;
+  position: relative;
+  width: 90px;
+}
+
+.nav_screen .ellipse-4 {
+  background-color: #f6bca8;
+  border-radius: 42.5px;
+  height: 55px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 81px;
+}
+
+.nav_screen .study_cat {
+  cursor: pointer;
+  height: 60px;
+  left: 19px;
+  position: absolute;
+  object-fit: cover;
+  top: 3xpx;
+  width: 50px;
+}
+
+.nav_screen .overlap-group1 {
+  height: 97px;
+  margin-left: 13px;
+  position: relative;
+  width: 196px;
+}
+
+.nav_screen .ellipse-1 {
+  background-color: var(--sunset-orange);
+  border-radius: 40.5px;
+  height: 60px;
+  left: 20px;
+  position: absolute;
+  top: 0px;
+  width: 90px;
+}
+
+.nav_screen .ellipse-2 {
+  background-color: #f6bca8;
+  border-radius: 42.5px;
+  height: 55px;
+  left: 24px;
+  position: absolute;
+  top: 2px;
+  width: 81px;
+}
+
+.nav_screen .coding_cat {
+  cursor: pointer;
+  height: 60px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 50px;
+}
+
+.nav_screen .backhome-1 {
+  height: 55px;
+  left: 130px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 60px;
+}
