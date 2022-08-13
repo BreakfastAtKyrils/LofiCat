@@ -115,7 +115,7 @@
   border-radius: 29px;
   height: 124px;
   left: 69px;
-  position: absolute;
+  position: relative;
   top: 255px;
   width: 373px;
 }
@@ -324,10 +324,11 @@
   left: 23px;
   min-width: 320px;
   padding: 9.1px 0;
-  position: absolute;
+  position: relative;
   top: 192px;
   padding: 2;
   border: none;
+  margin-bottom: 10px;;
 }
 
 .quiz .question {
