@@ -18,8 +18,7 @@ const Study = () => {
       setData(testContent);
       setTitle(testTitle);
     };
- 
- 
+
   return (
     <>
     <div class="container-center-horizontal">

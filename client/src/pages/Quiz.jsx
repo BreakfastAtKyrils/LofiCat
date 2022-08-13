@@ -1,14 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Question from '../components/Question';
 import QuizSideBar from '../components/QuizSideBar';
 import SideBarButtonQuestion from '../components/SideBarButtonQuestion';
 import QuestionContent from '../components/QuestionContent';
-import './quiz.css'
+import './quiz.css';
 
 const Quiz = () => {
-  // const [data, setData] = useState('This is before the button click');
-  // //const [title, setTitle] = useState('this is the title');
-  // const questionText="hello this is question text after clicking the button"
+  const [data, setData] = useState('This is before the button click');
+  const [answered, setAnswered] = useState(false);
+  //const [title, setTitle] = useState('this is the title');
+  // const questionText = "hello this is question text after clicking the button";
   // //testContent="hi this is test content"
   // const fetchContent = async () => {
   //   // const response = await axios.get("http://localhost:3006/chapters/1");
@@ -17,6 +18,12 @@ const Quiz = () => {
   //   setData(questionText);
   // };
 
+  const answerQuestion = async (letter) => {
+    //check if answer is correct
+
+    setAnswered(true);
+  }
+
   return (
     <>
     <div class="container-center-horizontal">
@@ -24,7 +31,7 @@ const Quiz = () => {
       <div class="quiz screen">
         <div class="overlap-group10">
           <img class="study_background" src="img/study-background-1@1x.png" />
-            <QuestionContent questionNumber='Question 1' question='this is the question' optionA='optionA' optionB='optionB' optionC='optionC' optionD='optionD'/>
+            <QuestionContent questionNumber='Question 1' question='this is the question' />
           <img class="lickcat" src="img/lickcat@2x.png" />
           <div class="overlap-group9">
             <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>

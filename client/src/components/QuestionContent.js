@@ -1,25 +1,6 @@
 import React from "react";
 import PossibleAnswer from "./PossibleAnswer";
 
-{
-  /* <QuestionContent
-  questionNumber="Question 1"
-  question="this is the question"
-  optionA="optionA"
-  optionB="optionB"
-  optionC="optionC"
-  optionD="optionD"
-/>; */
-  // const PossibleAnswer = (props) => {
-  //   return (
-  //     <button type="button" class="overlap-group2" onClick={props.onClick}>
-  //       <div class="while-true valign-text-middle poppins-normal-white-25px">
-  //         {props.text}
-  //       </div>
-  //     </button>
-  //   );
-  // };
-}
 const QuestionContent = (props) => {
   return (
     <>
