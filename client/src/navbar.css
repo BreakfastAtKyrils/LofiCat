@@ -1,5 +1,10 @@
 /* screen - home */
 
+li {
+  padding: 0px;
+  list-style: none;
+}
+
 .nav_screen {
   align-items: flex-start;
   background-color: var(--white);
@@ -28,11 +33,12 @@
 }
 
 .nav_screen .logo {
-  position: absolute;
-  margin-left:-80.2%;
-  height: 75px;
+  position: fixed;
+  left: 10px;
+  height: 40px;
   margin-top: 10px;
-  width: 250px;
+  width: 160px;
+  object-fit: cover;
 }
 
 .nav_screen .overlap-group-1 {
