@@ -37,23 +37,14 @@ const Quiz = () => {
     }
 
   };
-  const [data, setData] = useState('This is before the button click');
-  const [question, setQuestion] = useState();
-  const [questionNumber, setQuestionNumber] = useState(1);
+  //const [data, setData] = useState('This is before the button click');
+  const [question, setQuestion] = useState('Click on a Question to get started!');
+  const [questionNumber, setQuestionNumber] = useState('');
   const [answered, setAnswered] = useState(false);
-  //const [title, setTitle] = useState('this is the title');
-  // const questionText = "hello this is question text after clicking the button";
-  // //testContent="hi this is test content"
-  // const fetchContent = async () => {
-  //   // const response = await axios.get("http://localhost:3006/chapters/1");
-  //   // console.log(response.data);
-  //   // setData(response.data);
-  //   setData(questionText);
-  // };
 
   const displayQuestion = (question, number) => {
     setQuestion(question);
-    setQuestionNumber(number);
+    setQuestionNumber(`Question ${number}`);
   };
   const answerQuestion = async (letter) => {
     //check if answer is correct
@@ -68,7 +59,7 @@ const Quiz = () => {
         <div class="quiz screen">
           <div class="overlap-group10">
             <img class="study_background" src="img/study-background-1@1x.png" />
-            <QuestionContent questionNumber={`Question ${questionNumber}`} question={question} />
+            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[`q1`].potentialAnswers}/>
             <img class="lickcat" src="img/lickcat@2x.png" />
             <div class="overlap-group9">
               <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>

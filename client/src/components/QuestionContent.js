@@ -20,22 +20,22 @@ const QuestionContent = (props) => {
         <div class="which-of-the-followi">{props.question}</div>
         <PossibleAnswer
           letter="A"
-          text="Test Component A"
+          text={props.answers[0]}
           onClick={props.onClick}
         />
         <PossibleAnswer
           letter="B"
-          text="Test Component B"
+          text={props.answers[1]}
           onClick={props.onClick}
         />
         <PossibleAnswer
           letter="C"
-          text="Test Component C"
+          text={props.answers[2]}
           onClick={props.onClick}
         />
         <PossibleAnswer
           letter="D"
-          text="Test Component D"
+          text={props.answers[3]}
           onClick={props.onClick}
         />
       </div>
