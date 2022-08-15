@@ -38,10 +38,11 @@ const Quiz = () => {
 
   };
   //const [data, setData] = useState('This is before the button click');
-  const [question, setQuestion] = useState('Click on a Question to get started!');
-  const [questionNumber, setQuestionNumber] = useState('');
+  const initialQ = tempQuizData.q1.question;
+  const [question, setQuestion] = useState(initialQ);
+  const [questionNumber, setQuestionNumber] = useState('Question 1');
   const [answered, setAnswered] = useState(false);
-  const [currentQ, setCurrentQ] = useState(null);
+  const [currentQ, setCurrentQ] = useState('q1');
 
   const displayQuestion = (question, number) => {
     setQuestion(question);
@@ -62,7 +63,7 @@ const Quiz = () => {
         <div class="quiz screen">
           <div class="overlap-group10">
             <img class="study_background" src="img/study-background-1@1x.png" />
-            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[`${currentQ}`].potentialAnswers}/>
+            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[currentQ].potentialAnswers}/>
             <img class="lickcat" src="img/lickcat@2x.png" />
             <div class="overlap-group9">
               <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>
