@@ -31,6 +31,7 @@ const Study = () => {
               <h1 class="title valign-text-middle">CHAPTERS</h1>
               <div>
                   <SideBarButton title='Chapter 1: For Loops' chapter_number='1' onClick={fetchContent} />
+                  <SideBarButton title='Chapter 1: For Loops' chapter_number='1' onClick={fetchContent} />
                   <StudyContent text={data} title={title}/>
               </div>
           </div>

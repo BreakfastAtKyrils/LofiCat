@@ -36,6 +36,7 @@ const Quiz = () => {
           <div class="overlap-group9">
             <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>
             <SideBarButtonQuestion questionNumber="Question 1" onClick={ () => {console.log('test')}}/>
+            <SideBarButtonQuestion questionNumber="Question 1" onClick={ () => {console.log('test')}}/>
             <a href="/study">
               <div class="group-22"><div class="back-to-studying valign-text-middle">back to studying...</div></div></a>
               <a href="/study"><img class="arrow-2" src="img/arrow-2@2x.svg" /> </a>

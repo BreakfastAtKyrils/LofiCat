@@ -139,12 +139,13 @@
   height: 56px;
   left: 27px;
   max-width: 334px;
-  position: absolute;
+  position: relative;
   top: 135px;
   background: none;
   padding: 0;
   border: none;
   text-align: left;
+  margin-bottom: 10px;;
 }
 
 .study .loops {
