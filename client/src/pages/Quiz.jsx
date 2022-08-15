@@ -11,28 +11,28 @@ const Quiz = () => {
       'question': 'This is Question1, add data later.',
       'questionNumber': 1,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+      'potentialAnswers': ['This is potential answer A Q1', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
       'correctAnswer': 0
     },
     'q2' : {
       'question': 'This is Question2, add data later.',
       'questionNumber': 2,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+      'potentialAnswers': ['This is potential answer A Q2', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
       'correctAnswer': 1
     },
     'q3' : {
       'question': 'This is Question3, add data later.',
       'questionNumber': 3,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+      'potentialAnswers': ['This is potential answer A Q3', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
       'correctAnswer': 2
     },
     'q4' : {
       'question': 'This is Question4, add data later.',
       'questionNumber': 4,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+      'potentialAnswers': ['This is potential answer A Q4', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
       'correctAnswer': 3
     }
 
@@ -41,10 +41,13 @@ const Quiz = () => {
   const [question, setQuestion] = useState('Click on a Question to get started!');
   const [questionNumber, setQuestionNumber] = useState('');
   const [answered, setAnswered] = useState(false);
+  const [currentQ, setCurrentQ] = useState(null);
 
   const displayQuestion = (question, number) => {
     setQuestion(question);
     setQuestionNumber(`Question ${number}`);
+    setCurrentQ(`q${number}`);
+    console.log(currentQ);
   };
   const answerQuestion = async (letter) => {
     //check if answer is correct
@@ -59,7 +62,7 @@ const Quiz = () => {
         <div class="quiz screen">
           <div class="overlap-group10">
             <img class="study_background" src="img/study-background-1@1x.png" />
-            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[`q1`].potentialAnswers}/>
+            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[`${currentQ}`].potentialAnswers}/>
             <img class="lickcat" src="img/lickcat@2x.png" />
             <div class="overlap-group9">
               <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>
