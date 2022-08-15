@@ -6,6 +6,37 @@ import QuestionContent from '../components/QuestionContent';
 import './quiz.css';
 
 const Quiz = () => {
+  // const tempQuizData = {
+  //   'q1' : {
+  //     'question': 'This is Question1, add data later.',
+  //     'question_number': 1,
+  //     'answered?': false,
+  //     'potential_answers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+  //     'correct_answer': potential_answers[0]
+  //   },
+  //   'q2' : {
+  //     'question': 'This is Question2, add data later.',
+  //     'question_number': 2,
+  //     'answered?': false,
+  //     'potential_answers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+  //     'correct_answer': potential_answers[1]
+  //   },
+  //   'q3' : {
+  //     'question': 'This is Question3, add data later.',
+  //     'question_number': 3,
+  //     'answered?': false,
+  //     'potential_answers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+  //     'correct_answer': potential_answers[2]
+  //   },
+  //   'q4' : {
+  //     'question': 'This is Question4, add data later.',
+  //     'question_number': 4,
+  //     'answered?': false,
+  //     'potential_answers': ['This is potential answer A', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+  //     'correct_answer': potential_answers[3]
+  //   }
+
+  // };
   const [data, setData] = useState('This is before the button click');
   const [answered, setAnswered] = useState(false);
   //const [title, setTitle] = useState('this is the title');

@@ -4,7 +4,9 @@ const SideBarButtonQuestion = (props) => {
   return (
     <>
       <button type="button" class="overlap-group1" onClick={props.onClick}>
-              <div class="question valign-text-middle poppins-normal-black-25px">{props.questionNumber}</div>
+        <div class="question valign-text-middle poppins-normal-black-25px">
+          {props.questionNumber}
+        </div>
       </button>
     </>
   );

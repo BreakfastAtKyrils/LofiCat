@@ -15,7 +15,6 @@ const Home = () => {
   }, []);
   return (
     <>
-      <h2>{data && data.name} </h2>
     <div class="container-center-horizontal">
     <input type="hidden" id="anPageName" name="page" value="home" />
       <div class="home">
