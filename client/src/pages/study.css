@@ -137,15 +137,15 @@
   align-items: flex-start;
   display: flex;
   height: 56px;
-  left: 27px;
-  max-width: 334px;
+  left: 10px;
+  max-width: 364px;
   position: relative;
   top: 135px;
   background: none;
   padding: 0;
   border: none;
   text-align: left;
-  margin-bottom: 10px;;
+  margin-bottom: 20px;;
 }
 
 .study .loops {

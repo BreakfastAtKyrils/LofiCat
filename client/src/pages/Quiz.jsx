@@ -6,34 +6,34 @@ import QuestionContent from '../components/QuestionContent';
 import './quiz.css';
 
 const Quiz = () => {
-  const tempQuizData = {
+  const tempQuizData = { // content from https://www.programminghunk.com/2021/07/java-quiz-5for-loop.html
     'q1' : {
-      'question': 'This is Question1, add data later.',
+      'question': 'What is not a type of Java for-statement?',
       'questionNumber': 1,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A Q1', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
-      'correctAnswer': 0
-    },
-    'q2' : {
-      'question': 'This is Question2, add data later.',
-      'questionNumber': 2,
-      'answered?': false,
-      'potentialAnswers': ['This is potential answer A Q2', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
-      'correctAnswer': 1
-    },
-    'q3' : {
-      'question': 'This is Question3, add data later.',
-      'questionNumber': 3,
-      'answered?': false,
-      'potentialAnswers': ['This is potential answer A Q3', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
+      'potentialAnswers': ['Simple for-statement', 'extended for-statement', 'for-else statement', 'Labeled for statement'],
       'correctAnswer': 2
     },
+    'q2' : {
+      'question': 'An enhanced FOR loop work with only Collection type data. Examples of Collection are ___.',
+      'questionNumber': 2,
+      'answered?': false,
+      'potentialAnswers': ['Any regular array variable', 'ArrayList', 'HashMap, HashSet', 'ALL'],
+      'correctAnswer': 3
+    },
+    'q3' : {
+      'question': 'A BREAK or CONTINUE statement applies only to the ___ loop.',
+      'questionNumber': 3,
+      'answered?': false,
+      'potentialAnswers': ['Inner loop', 'Always Outer loop', 'Sometimes A, sometimes B', 'none'],
+      'correctAnswer': 0
+    },
     'q4' : {
-      'question': 'This is Question4, add data later.',
+      'question': 'for is ______________ statement in java.',
       'questionNumber': 4,
       'answered?': false,
-      'potentialAnswers': ['This is potential answer A Q4', 'This is potential answer B', 'This is potential answer C', 'This is potential answer D'],
-      'correctAnswer': 3
+      'potentialAnswers': ['branching', 'iteration or looping', 'decision-making', 'all'],
+      'correctAnswer': 0
     }
 
   };

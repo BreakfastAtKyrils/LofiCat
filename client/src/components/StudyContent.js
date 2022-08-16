@@ -1,4 +1,5 @@
 import React from "react";
+import nl2br from 'react-newline-to-break'; 
 
 const StudyContent = (props) => {
   return (
@@ -18,7 +19,7 @@ const StudyContent = (props) => {
               </div>
             </div>
             <div class="this-text-is-about-l poppins-normal-black-25px">
-            {props.text}
+            {nl2br(props.text)}
             </div>
           </div>
     </>
