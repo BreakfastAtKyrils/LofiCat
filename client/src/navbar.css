@@ -34,10 +34,10 @@ li {
 
 .nav_screen .logo {
   position: absolute;
-  left: 10px;
+  left: 15px;
   height: 40px;
   top: 15px;
-  width: 160px;
+  width: 200px;
   object-fit: cover;
 }
 
