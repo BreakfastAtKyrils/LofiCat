@@ -3,6 +3,7 @@ import Question from '../components/Question';
 import QuizSideBar from '../components/QuizSideBar';
 import SideBarButtonQuestion from '../components/SideBarButtonQuestion';
 import QuestionContent from '../components/QuestionContent';
+import SubmitButton from '../components/SubmitButton';
 import './quiz.css';
 
 const Quiz = () => {
@@ -10,28 +11,32 @@ const Quiz = () => {
     'q1' : {
       'question': 'What is not a type of Java for-statement?',
       'questionNumber': 1,
-      'answered?': false,
+      'isAnswered': false,
+      'currentAnswer' : null,
       'potentialAnswers': ['Simple for-statement', 'extended for-statement', 'for-else statement', 'Labeled for statement'],
       'correctAnswer': 2
     },
     'q2' : {
       'question': 'An enhanced FOR loop work with only Collection type data. Examples of Collection are ___.',
       'questionNumber': 2,
-      'answered?': false,
+      'isAnswered': false,
+      'currentAnswer' : null,
       'potentialAnswers': ['Any regular array variable', 'ArrayList', 'HashMap, HashSet', 'ALL'],
       'correctAnswer': 3
     },
     'q3' : {
       'question': 'A BREAK or CONTINUE statement applies only to the ___ loop.',
       'questionNumber': 3,
-      'answered?': false,
+      'isAnswered': false,
+      'currentAnswer' : null,
       'potentialAnswers': ['Inner loop', 'Always Outer loop', 'Sometimes A, sometimes B', 'none'],
       'correctAnswer': 0
     },
     'q4' : {
       'question': 'for is ______________ statement in java.',
       'questionNumber': 4,
-      'answered?': false,
+      'isAnswered?': false,
+      'currentAnswer' : null,
       'potentialAnswers': ['branching', 'iteration or looping', 'decision-making', 'all'],
       'correctAnswer': 0
     }
@@ -41,8 +46,13 @@ const Quiz = () => {
   const initialQ = tempQuizData.q1.question;
   const [question, setQuestion] = useState(initialQ);
   const [questionNumber, setQuestionNumber] = useState('Question 1');
-  const [answered, setAnswered] = useState(false);
   const [currentQ, setCurrentQ] = useState('q1');
+  const [answers, setAnswers] = useState({
+    'q1': null,
+    'q2': null,
+    'q3': null,
+    'q4': null
+  });
 
   const displayQuestion = (question, number) => {
     setQuestion(question);
@@ -50,11 +60,30 @@ const Quiz = () => {
     setCurrentQ(`q${number}`);
     console.log(currentQ);
   };
-  const answerQuestion = async (letter) => {
-    //check if answer is correct
-
-    setAnswered(true);
+  const answerQuestion = (question) => {
+    const correctA = tempQuizData[question].correctAnswer;
+    const answer = answers[question];
+    if (answer === null) {
+      return null;
+    }
+    if (answer === correctA) {
+      return true;
+    } else {
+      return false;
+    }
   };
+  const recordAnswer = (question, number) => {
+    const newState = {...answers};
+    newState[question] = number;
+    setAnswers(newState);
+  };
+  // const checkAnswers = () => {
+  //   Object.keys(tempQuizData).forEach(key => {
+  //     if (tempQuizData[key].isAnswered) {
+
+  //     }
+  //   });
+  // }
 
   return (
     <>
@@ -63,11 +92,11 @@ const Quiz = () => {
         <div class="quiz screen">
           <div class="overlap-group10">
             <img class="study_background" src="img/study-background-1@1x.png" />
-            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[currentQ].potentialAnswers}/>
+            <QuestionContent questionNumber={`${questionNumber}`} question={question} answers={tempQuizData[currentQ].potentialAnswers} answerFunction={recordAnswer} currentQ={currentQ}/>
             <img class="lickcat" src="img/lickcat@2x.png" />
             <div class="overlap-group9">
               <div class="overlap-group-3"><div class="quiz-chapter-1 valign-text-middle">QUIZ: Chapter 1</div></div>
-              <SideBarButtonQuestion questionNumber="Question 1" onClick=
+              <SideBarButtonQuestion questionNumber="Question 1" isAnswered={answerQuestion('q1')} onClick=
                 {
                   () => {
                     const question = tempQuizData.q1.question;
@@ -75,7 +104,7 @@ const Quiz = () => {
                     displayQuestion(question, number);
                   }
                 }/>
-              <SideBarButtonQuestion questionNumber="Question 2" onClick=
+              <SideBarButtonQuestion questionNumber="Question 2" isAnswered={answerQuestion('q2')} onClick=
                 {
                   () => {
                     const question = tempQuizData.q2.question;
@@ -83,7 +112,7 @@ const Quiz = () => {
                     displayQuestion(question, number);
                   }
                 }/>
-              <SideBarButtonQuestion questionNumber="Question 3" onClick=
+              <SideBarButtonQuestion questionNumber="Question 3" isAnswered={answerQuestion('q3')} onClick=
                 {
                   () => {
                     const question = tempQuizData.q3.question;
@@ -91,7 +120,15 @@ const Quiz = () => {
                     displayQuestion(question, number);
                   }
                 }/>
-              <SideBarButtonQuestion questionNumber="Question 4" onClick=
+              <SideBarButtonQuestion questionNumber="Question 4" isAnswered={answerQuestion('q4')} onClick=
+                {
+                  () => {
+                    const question = tempQuizData.q4.question;
+                    const number = 4;
+                    displayQuestion(question, number);
+                  }
+                }/>
+              <SubmitButton onClick=
                 {
                   () => {
                     const question = tempQuizData.q4.question;

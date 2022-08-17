@@ -13,14 +13,17 @@ const SideBarButtonQuestion = (props) => {
             {props.questionNumber}
           </div>
         </div>
-        <div class="overlap-group1-3">
-          <img class="ellipse-3" src="img/ellipse-3-9@2x.svg" />
-          <div class="a valign-text-middle poppins-normal-white-30px">✔️</div>
-        </div>
-        <div class="overlap-group1-3">
-          <img class="ellipse-3" src="img/ellipse-3-10@2x.svg" />
-          <div class="a valign-text-middle poppins-normal-white-30px">❌</div>
-        </div>
+        {props.isAnswered ? (
+          <div class="overlap-group1-3">
+            <img class="ellipse-3" src="img/ellipse-3-9@2x.svg" />
+            <div class="a valign-text-middle poppins-normal-white-30px">✔️</div>
+          </div>
+        ) : props.isAnswered !== null ? (
+          <div class="overlap-group1-3">
+            <img class="ellipse-3" src="img/ellipse-3-10@2x.svg" />
+            <div class="a valign-text-middle poppins-normal-white-30px">❌</div>
+          </div>
+        ) : null}
       </button>
     </>
   );

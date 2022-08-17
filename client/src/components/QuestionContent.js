@@ -21,22 +21,22 @@ const QuestionContent = (props) => {
         <PossibleAnswer
           letter="A"
           text={props.answers[0]}
-          onClick={props.onClick}
+          onClick={() => props.answerFunction(props.currentQ, 0)}
         />
         <PossibleAnswer
           letter="B"
           text={props.answers[1]}
-          onClick={props.onClick}
+          onClick={() => props.answerFunction(props.currentQ, 1)}
         />
         <PossibleAnswer
           letter="C"
           text={props.answers[2]}
-          onClick={props.onClick}
+          onClick={() => props.answerFunction(props.currentQ, 2)}
         />
         <PossibleAnswer
           letter="D"
           text={props.answers[3]}
-          onClick={props.onClick}
+          onClick={() => props.answerFunction(props.currentQ, 3)}
         />
       </div>
     </>
