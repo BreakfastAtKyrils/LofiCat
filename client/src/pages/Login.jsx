@@ -9,7 +9,7 @@ const Login = () => {
         <div class="overlap-group8">
           <div class="group-container">
             <div class="overlap-group7">
-              <img class="logo" src="img/logo@2x.png" />
+              <img class="logo" src="img/logo-2@2x.png" />
               <div class="sign-in-to-get-learning-or valign-text-middle">Sign in to get learning or</div>
               <div class="sign-up valign-text-middle">Sign Up</div>
             </div>

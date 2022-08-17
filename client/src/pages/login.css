@@ -28,7 +28,7 @@
   min-height: 557px;
   padding: 28px 46px;
   position: absolute;
-  top: 96px;
+  top: 86px;
   width: 600px;
 }
 
@@ -40,11 +40,11 @@
 }
 
 .login .logo {
-  height: 113px;
-  left: 29px;
+  height: 80px;
+  left: 50px;
   position: absolute;
   top: 0;
-  width: 390px;
+  width: 370px;
 }
 
 .login .sign-in-to-get-learning-or {
@@ -274,6 +274,6 @@
   left: 500px;
   object-fit: cover;
   position: absolute;
-  top: 510px;
+  top: 478px;
   width: 355px;
 }
