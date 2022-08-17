@@ -1,10 +1,10 @@
 import React from 'react';
-import './login.css'
+import './login.css';
 
 const Login = () => {
   return (
     <div class="container-center-horizontal">
-    <input type="hidden" id="anPageName" name="page" value="login" />
+      <input type="hidden" id="anPageName" name="page" value="login" />
       <div class="login screen">
         <div class="overlap-group8">
           <div class="group-container">
@@ -50,7 +50,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-  )
+  );
 
 };
 
